@@ -1,13 +1,11 @@
 using PowerModels
 using Ipopt
 
-function example_DC_OPF() 
-    solution = solve_dc_opf("case3.m", Ipopt.Optimizer)
-
+function example_DC_OPF(network, optimizer) 
+    solution = solve_dc_opf(network, optimizer)
     return solution
 
 end
 
 # Run the function
 
-#Testing if the main branch is being affected by the changes

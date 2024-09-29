@@ -1,9 +1,8 @@
 using PowerModels
 using Ipopt
 
-function example_AC_OPF() 
-    solution = solve_ac_opf("case3.m", Ipopt.Optimizer)
-
+function example_AC_OPF(network, optimizer) 
+    solution = solve_ac_opf(network, optimizer)
     return solution
 
 end
