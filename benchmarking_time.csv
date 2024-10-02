@@ -1,0 +1,7 @@
+case_name,nodes,branches,ACP_time,DCP_time,QCRM_time,QCLS_time
+case3_lmbd.m,3,3,1.39,0.24,0.29,0.4
+case30_ieee.m,30,41,0.35,0.2,0.46,1.01
+case179_goc.m,179,263,1.18,0.29,2.9,3.94
+case1888_rte.m,1888,2531,17.63,0.91,53.64,73.39
+case2869_pegase.m,2869,4582,18.01,1.8,78.46,111.99
+case6515_rte.m,6515,9037,78.02,4.21,264.77,284.86
